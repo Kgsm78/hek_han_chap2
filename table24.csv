@@ -1,0 +1,4 @@
+name,gender,fever,cough,test_1,test_2,test_3,test_4
+Jack,M,1,0,1,0,0,0
+Jim,M,1,1,0,0,0,0
+Mary,F,1,0,1,0,1,0
