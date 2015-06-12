@@ -40,9 +40,11 @@ vegdist(nogen,method="jaccard")  #results correspond to top ob page 72
 
 
 ##############2.44 Minkowski distance for numeric data
-tableex<-read.csv("C:/Users/Holly/Desktop/R/minktable.csv") #your filehpath
-nolab<-tableex[,2:5]  #This are the numeric attributes
+x1<-c(1,2)
+x2<-c(3,5)
+nolab<-rbind(x1,x2)
 
+nolab
 #dist(x, method = "euclidean", diag = FALSE, upper = FALSE, p = 2)
 dist(nolab, method = "euclidean")
 dist(nolab, method = "manhattan")
